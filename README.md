@@ -1,10 +1,35 @@
-# BitChat Python
+# 📡 BitChat Python
 
-A Python implementation of the BitChat decentralized, peer-to-peer, encrypted chat application over BLE.
+A **Python implementation** of [BitChat](https://github.com/permissionlesstech/bitchat) — a **decentralized, peer-to-peer, encrypted chat** application over **Bluetooth Low Energy (BLE)**.
 
-This project is a rewrite of the original Rust-based `bitchat-terminal`. 
+This project is a rewrite of the original, aimed at bringing similar functionality into Python for easier development, learning, and extensibility.
 
-pip install bleak>=0.22.3 cryptography>=44.0.0 lz4>=4.3.3 aioconsole>=0.8.1 pybloom-live>=4.0.0
+---
 
-### Install Requirements
-`pip install -r requirements.txt`
+## 🚀 Features
+
+- 📶 BLE (Bluetooth Low Energy) communication
+- 🔐 End-to-end encryption using `cryptography`
+- 📦 Lightweight design
+- ⚙️ Data compression via `lz4`
+- 🌱 Probabilistic message deduplication using `pybloom`
+- 🧪 Async I/O with `aioconsole` for better responsiveness
+
+---
+
+## 📦 Install
+```bash
+git clone https://github.com/farhatizakaria/bitchat-python.git
+cd bitchat-python
+```
+
+Make sure you have Python 3.11+ installed.
+
+Install all required packages:
+
+```bash
+pip install -r requirements.txt
+```
+```bash
+python3 bitchat.py 
+```
